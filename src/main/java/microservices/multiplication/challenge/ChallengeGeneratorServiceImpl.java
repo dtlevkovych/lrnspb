@@ -13,10 +13,6 @@ public class ChallengeGeneratorServiceImpl implements ChallengeGeneratorService 
         return random.nextInt(MAXIMUM_FACTOR - MINIMUM_FACTOR) + MINIMUM_FACTOR;
     }
 
-    ChallengeGeneratorServiceImpl() {
-        this.random = new Random();
-    }
-
     public ChallengeGeneratorServiceImpl(final Random random) {
         this.random = random;
     }

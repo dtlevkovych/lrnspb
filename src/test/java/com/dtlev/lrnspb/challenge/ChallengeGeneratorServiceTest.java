@@ -30,6 +30,6 @@ public class ChallengeGeneratorServiceTest {
 
         Challenge challenge = challengeGeneratorService.randomChallenge();
 
-        then(challenge).isEqualTo(new Challenge());
+        then(challenge).isEqualTo(new Challenge(31, 41));
     }
 }
