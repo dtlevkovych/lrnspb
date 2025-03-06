@@ -1,10 +1,15 @@
-package microservices.multiplication.challenge;
+package com.dtlev.lrnspb.challenge.service;
 
-import microservices.multiplication.user.User;
+import com.dtlev.lrnspb.challenge.domain.ChallengeAttempt;
+import com.dtlev.lrnspb.challenge.domain.ChallengeAttemptDTO;
+import com.dtlev.lrnspb.user.User;
 import org.springframework.stereotype.Service;
 
 @Service
 public class ChallengeServiceImpl implements ChallengeService {
+    public ChallengeServiceImpl() {
+    }
+
     @Override
     public ChallengeAttempt verifyAttempt(ChallengeAttemptDTO attemptDTO) {
 

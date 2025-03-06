@@ -1,9 +1,9 @@
 package com.dtlev.lrnspb.challenge;
 
-import microservices.multiplication.challenge.ChallengeService;
-import microservices.multiplication.challenge.ChallengeAttemptDTO;
-import microservices.multiplication.challenge.ChallengeAttempt;
-import microservices.multiplication.challenge.ChallengeServiceImpl;
+import com.dtlev.lrnspb.challenge.domain.ChallengeAttempt;
+import com.dtlev.lrnspb.challenge.domain.ChallengeAttemptDTO;
+import com.dtlev.lrnspb.challenge.service.ChallengeService;
+import com.dtlev.lrnspb.challenge.service.ChallengeServiceImpl;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import static org.assertj.core.api.BDDAssertions.then;

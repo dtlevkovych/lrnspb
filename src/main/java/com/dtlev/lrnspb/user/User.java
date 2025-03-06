@@ -1,4 +1,4 @@
-package microservices.multiplication.user;
+package com.dtlev.lrnspb.user;
 
 import java.util.Objects;
 

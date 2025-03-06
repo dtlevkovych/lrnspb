@@ -1,4 +1,4 @@
-package microservices.multiplication.challenge;
+package com.dtlev.lrnspb.challenge.domain;
 
 import java.util.Objects;
 

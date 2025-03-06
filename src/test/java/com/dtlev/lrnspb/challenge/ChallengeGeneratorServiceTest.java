@@ -1,8 +1,8 @@
 package com.dtlev.lrnspb.challenge;
 
-import microservices.multiplication.challenge.Challenge;
-import microservices.multiplication.challenge.ChallengeGeneratorService;
-import microservices.multiplication.challenge.ChallengeGeneratorServiceImpl;
+import com.dtlev.lrnspb.challenge.domain.Challenge;
+import com.dtlev.lrnspb.challenge.service.ChallengeGeneratorService;
+import com.dtlev.lrnspb.challenge.service.ChallengeGeneratorServiceImpl;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
